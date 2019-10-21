@@ -86,7 +86,8 @@ def main():
 		except TypeError:  # not iterable
 			fprint(x)
 		else:
-			fprint(x)
+			for x in it:
+				fprint(x)
 
 	if args.post_cmd:
 		import_expression.exec(args.post_cmd)
