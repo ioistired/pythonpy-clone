@@ -1,0 +1,6 @@
+.venv
+venv
+__pycache__
+*.py[cod]
+.coveragerc
+.pytest_cache/
