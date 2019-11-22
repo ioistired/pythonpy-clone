@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-__version__ = '0.0.3'
+__version__ = '0.0.4'
 __license__ = 'BlueOak-1.0.0'
 
 """
