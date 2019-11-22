@@ -26,7 +26,7 @@ setuptools.setup(
 	description='rewrite of pythonpy using AST manipulations instead of regex',
 	long_description=README,
 	long_description_content_type='text/markdown; variant=GFM',
-	install_requires=['import-expression>=0.5.0,<1.0.0'],
+	install_requires=['import-expression>=1.0.0,<2.0.0'],
 	python_requires='>=3.6.0',
 	classifiers=[
 		'Development Status :: 3 - Alpha',
@@ -38,7 +38,7 @@ setuptools.setup(
 		'Natural Language :: English',
 		'Operating System :: OS Independent',
 	],
-	entry_points= {
+	entry_points={
 		'console_scripts': list(map(
 			'py{} = pythonpy_clone:main'.format,
 			('', sys.version_info.major, '.'.join(map(str, sys.version_info[:2])))
