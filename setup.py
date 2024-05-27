@@ -39,9 +39,6 @@ setuptools.setup(
 		'Operating System :: OS Independent',
 	],
 	entry_points={
-		'console_scripts': list(map(
-			'py{} = pythonpy_clone:main'.format,
-			('', sys.version_info.major, '.'.join(map(str, sys.version_info[:2])))
-		)),
+		'console_scripts': ['py = pythonpy_clone:main'],
 	},
 )
