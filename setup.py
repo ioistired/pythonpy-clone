@@ -26,7 +26,7 @@ setuptools.setup(
 	description='rewrite of pythonpy using AST manipulations instead of regex',
 	long_description=README,
 	long_description_content_type='text/markdown; variant=GFM',
-	install_requires=['import-expression>=1.0.0,<2.0.0'],
+	install_requires=['import-expression>=2.0.0,<3.0.0'],
 	python_requires='>=3.6.0',
 	classifiers=[
 		'Development Status :: 3 - Alpha',
