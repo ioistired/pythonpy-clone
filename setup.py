@@ -18,8 +18,8 @@ with open(HERE / 'README.md') as f:
 
 setuptools.setup(
 	name='pythonpy-clone',
-	author='Io Mintz',
-	url='https://github.com/iomintz/pythonpy-clone',
+	author='io mintz',
+	url='https://github.com/ioistired/pythonpy-clone',
 	version=VERSION,
 	py_modules=['pythonpy_clone'],
 	license='BlueOak-1.0.0',
